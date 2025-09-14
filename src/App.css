@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  color: #333;
+}
+
+.header {
+  background: #1e293b;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  background: url('https://via.placeholder.com/1200x400?text=ShopEase+Banner') center/cover;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-list {
+  padding: 2rem;
+  text-align: center;
+}
+
+.list-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background: #1e293b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #334155;
+}
+
+.footer {
+  background: #1e293b;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .list-items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
