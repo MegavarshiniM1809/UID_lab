@@ -1,0 +1,13 @@
+.weather-wrap { margin-top: 8px; }
+.current-card { display:flex; gap:16px; align-items:center; justify-content:space-between; background:white; padding:16px; border-radius:12px; box-shadow:0 6px 18px rgba(16,24,40,0.06); }
+.current-card .left { text-align:left; }
+.temp { font-size:2.6rem; font-weight:700; margin-top:6px; }
+.desc { text-transform:capitalize; color:#475569; margin-top:6px; }
+.current-card .right { text-align:center; }
+.meta { color:#475569; margin-top:6px; }
+.forecast-title { margin-top:18px; text-align:left; }
+.forecast-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin-top:10px; }
+.day-card { background:white; border-radius:10px; padding:10px; text-align:center; box-shadow:0 4px 12px rgba(16,24,40,0.04); }
+.day { font-weight:600; margin-bottom:6px; font-size:0.95rem; }
+.range { margin-top:6px; font-weight:600; }
+.small { color:#64748b; font-size:0.9rem; margin-top:6px; text-transform:capitalize; }

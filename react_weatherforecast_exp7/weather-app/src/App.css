@@ -1,0 +1,9 @@
+.app-shell { max-width: 980px; margin: 24px auto; padding: 20px; }
+.app-header { text-align:center; padding: 18px; background: linear-gradient(90deg,#60a5fa,#7c3aed); color:white; border-radius:12px; }
+.tag { margin:6px 0 0; opacity:0.9; font-size:0.95rem; }
+.search-form { display:flex; gap:8px; justify-content:center; margin:18px 0; flex-wrap:wrap; }
+.search-form input { padding:10px 12px; border-radius:8px; border:1px solid #cbd5e1; min-width:220px; }
+.search-form button { padding:10px 14px; border-radius:8px; border:none; cursor:pointer; background:#6366f1; color:white; font-weight:600; }
+.status { text-align:center; color:#334155; margin:12px 0; }
+.error { color:#b91c1c; text-align:center; margin:12px 0; }
+.footer { text-align:center; margin-top:22px; color:#475569; }
